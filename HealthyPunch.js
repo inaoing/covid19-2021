@@ -268,7 +268,7 @@ const fn = {
      * @param {string} text
      */
     hideSecret(text) {
-        return text//.split('').map((it, n) => n % 2 ? '*' : it).join('')
+       return text.replace(/./g, '*');
     }
 };
 (() => {
