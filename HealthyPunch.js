@@ -2,6 +2,7 @@ const { readFile } = require('fs');
 const { HttpRequest } = require('./node/HttpRequest');
 
 const { USERNAME, PASSWORD, SCKEY } = process.env;
+
 /* 身份验证信息 */
 let Cookie = 'languageIndex=0; ',
     __token__ = '',
