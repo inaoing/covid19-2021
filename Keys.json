@@ -1,5 +1,6 @@
 {
      "keys": [
+        "is_in_school",
         "confirm",
         "submit_time",
         "campus",
